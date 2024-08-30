@@ -35,10 +35,10 @@ const Project = () => {
                 FIO
                 <span className='text-sm'>WEB DEVELOPMENT</span>
               </a>
-              <div className='absolute top-[0] translate-y-[-50%] translate-x-[-50%]'>
+              {/* <div className='absolute top-[0] translate-y-[-50%] translate-x-[-50%]'>
                 <img src='/fio.png' className='w-96 h-96 object-cover blur-[1px] ' />
                 <a href='https://fio.vinayaknawdhar.in' target='_blank' className='px-10 py-3 bg-gray-800 text-gray-100 rounded-full border-2 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>View more</a>
-              </div>
+              </div> */}
             </li>
             <li>
               <a href="https://vtugpt.vercel.app" className='flex flex-col text-2xl font-bold tracking-wider gap-2 hover:translate-x-5 transition-all'>
@@ -53,7 +53,7 @@ const Project = () => {
               </a>
             </li>
             <li>
-              <a href="" className='flex flex-col text-2xl font-bold tracking-wider gap-2 hover:translate-x-5 transition-all'>
+              <a href="https://vinayaknawdhar.github.io/United-Bank-Of-DSATM/" target='_blank' className='flex flex-col text-2xl font-bold tracking-wider gap-2 hover:translate-x-5 transition-all'>
                 United Banks of DSATM
                 <span className='text-sm'>WEB DEVELOPMENT</span>
               </a>
